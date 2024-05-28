@@ -1,0 +1,109 @@
+body {
+    position: relative;
+    background-color: #27283D;
+}
+.navbar{
+    background-color: #27283D;
+}
+.navbar-brand:hover{
+    color: #FA8C2C;
+}
+.custom-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(250,140,44)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+    box-shadow: none;
+}
+
+.custom-toggler.navbar-toggler {
+    border-color: rgb(250, 140, 44);
+    box-shadow: none;
+}
+.navbar-brand, .nav-link{
+    color: rgb(250, 140, 44);
+}
+.custom-link.nav-link.active, .nav-link:hover, .nav-link:focus{
+    color: #27283D;
+    background-color: #FA8C2C;
+}
+
+.exmore{
+    color: #27283D;
+}
+.custom-btn.btn{
+    border-color: #27283D;
+}
+.custom-btn.btn:hover{
+    background-color: #27283D;
+}
+.custom-btn.btn:active{
+    border-color: #27283D;
+}
+.custom-btn.btn:hover .exmore{
+    color: #FA8C2C;
+}
+
+#section2,#section4{
+    background-color: #27283D;
+    color: #FA8C2C;
+}
+#section3>.col-lg-6{
+    background-color: #FA8C2C;
+    color: #27283D;
+}
+#section3>.col-lg-6>p, #section1>.col-lg-6>p{
+    text-align: justify;
+}
+.center-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+fieldset{
+    border:0.2vw solid #FA8C2C;
+}
+fieldset:nth-child(1){
+    width: 21.8%;
+}
+
+.custom-btn-form{
+    color: #FA8C2C;
+    border-color: #FA8C2C;
+}
+
+.custom-btn-form:hover{
+    background-color: #FA8C2C;
+    border-color: #FA8C2C;
+    color: #27283D;
+}
+input,textarea{
+    border: 0.2vw solid transparent;
+    width: 100%;
+}
+textarea:focus,input:focus{
+    outline: none;
+    border:0.20vw solid #FA8C2C;
+}
+.footer div > a{
+    color: #27283D;
+}
+.footer div a i > span{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+@media (max-width: 768px) {
+    .center-form {
+        padding: 0 15px;
+    }
+
+    fieldset {
+        width: 100%;
+        border: 0.7vw solid #FA8C2C;
+    }
+
+    fieldset:nth-child(1){
+        width: 100%;
+    }
+
+    .footer div > a{
+        font-size: 4.5vw;
+    }
+}
