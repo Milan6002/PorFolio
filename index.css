@@ -41,6 +41,14 @@ body {
     color: #FA8C2C;
 }
 
+#section2>.col-lg-6>h1{
+    border-left: 0.5vw solid #FA8C2C;
+}
+#section2>.col-lg-6>a{
+    text-decoration: none;
+    color: #FA8C2C;
+}
+
 #section2,#section4{
     background-color: #27283D;
     color: #FA8C2C;
@@ -51,6 +59,13 @@ body {
 }
 #section3>.col-lg-6>p, #section1>.col-lg-6>p{
     text-align: justify;
+}
+#section3>.col-lg-6>img{
+    height: 25vw;
+    width: 12vw;
+    position: relative;
+    top: 0.40vw;
+    left: 18vw;
 }
 .center-form{
     display: flex;
@@ -105,5 +120,12 @@ textarea:focus,input:focus{
 
     .footer div > a{
         font-size: 4.5vw;
+    }
+    #section3>.col-lg-6>img{
+        height: 95vw;
+        width: 40vw;
+        position: relative;
+        top: 1.50vw;
+        left: 32vw;
     }
 }
